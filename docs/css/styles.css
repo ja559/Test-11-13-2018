@@ -35,11 +35,20 @@ body {
     margin-left: 31px;
 }
 #leftcontent{
-    padding: 10px;
+    padding: 15px;
     border: 1px solid;
 }
 #picture {
     border: 1px solid;
+}
+#rightheadertext{
+    font-size: 24;
+    padding: 25px;
+    font-weight: bold;
+}
+#righttext{
+    margin-left: 50px;
+
 }
 
 
@@ -47,23 +56,7 @@ body {
     background-color: black;
     color: white;
 }
-.panelMargin {
-    margin-left: 62px;
-    margin-right: 31px;
-}
-.panelOlMargin {
-    margin-left: 31px;
-    margin-right: 31px;
-}
 
-.panelHeadingMargin {
-    margin-left:31px;
-    margin-top: 0px;
-    margin-bottom: 16px;
-}
-.topMargin {
-    margin-top: 31px;
-}
 a {
     text-decoration: none;
 }
@@ -71,28 +64,16 @@ a:hover {
     text-decoration: underline;
 }
 
-.fullPercent {
-    width: 100%;
-    height: 100%;
-}
-
-.textCenter {
-    text-align: center;
-}
-
 .thinBorder {
     border: 1px black solid;
 }
-
 .marginCenter {
     margin-right: auto;
     margin-left: auto;
 }
-
 .displayInline {
     display: inline;
 }
-
 .wrapperPaddingRight {
     padding-right: 31px;
 }
@@ -128,11 +109,6 @@ a:hover {
 .Helvetica {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
-.textRight {
-    text-align: right;
-}
-
 .alignRight {
     text-align: right;
 }
