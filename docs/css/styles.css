@@ -13,9 +13,7 @@ body {
 #logo {
     height: 135px;
 }
-#sideCard {
-    padding: 18px;
-}
+
 #banner {
     background-image: url("../images/4x4-adventure-automobile-1571783.jpg");
     position: relative;
@@ -36,11 +34,14 @@ body {
     top: 150px;
     margin-left: 31px;
 }
-#picture{
+#leftcontent{
     padding: 10px;
-    border-style: solid;
-    border-width: 1px;
+    border: 1px solid;
 }
+#picture {
+    border: 1px solid;
+}
+
 
 .blackwhite{
     background-color: black;
@@ -92,10 +93,6 @@ a:hover {
     display: inline;
 }
 
-.sqrPadding {
-    padding-left: 31px;
-    padding-right: 31px;
-}
 .wrapperPaddingRight {
     padding-right: 31px;
 }
@@ -114,17 +111,11 @@ a:hover {
 .clearFix {
     clear: both;
 }
-.grSmallPadding {
-    padding-left: 19px;
-    padding-right: 19px;
-}
+
 .grSmall {
     width: 329px;
 }
-.grBigPadding {
-    padding-left: 24px;
-    padding-right: 24px;
-}
+
 .grBig {
     width: 600px;
 }
@@ -151,4 +142,12 @@ a:hover {
 }
 .middleHieght{
     height: 554px;
+}
+.grRight
+{
+    width: 291px;
+}
+.grLeft
+{
+    width: 291px;
 }
